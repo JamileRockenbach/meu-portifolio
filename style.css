@@ -275,12 +275,7 @@ h3 {
 
 /* Remove a barra de rolagem para um visual mais limpo */
 .carousel::-webkit-scrollbar {
-    display: none;
-}
-
-.carousel {
-    -ms-overflow-style: none;
-    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
 }
 
 .cards-container {

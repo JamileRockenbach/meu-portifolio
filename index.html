@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio | Jamile Rockenbach</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h2>Jamile Rockenbach - Desenvolvedora FullStack</h2>
+        <nav id="nav">
+            <a href="#sobre">Sobre mim</a>
+            <a href="#skills">Minhas Skills</a>
+            <a href="#certificados">Certificados</a>
+            <a href="#projetos">Projetos</a>
+            <a href="#contatos">Contatos</a>
+        </nav>
+        <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+    </header>
+
+    <main>
+        <section class="bemVindo">
+            <h1 class="titulo">Seja Bem-Vindo(a)!</h1>
+        </section>
+        <section id="sobre" class="section sobre esconder">
+            <div class="sobreContainer">
+                <div class="sobreTexto">
+                    <h1>Um pouquinho sobre mim...</h1>
+                    <p>Olá, me chamo Jamile Rockenbach Ferreira, tenho 18 anos e sou estudante de Ciência da Computação na ATITUS.</p>
+                    <p>Sou apaixonada pela área de tecnologia. Atualmente, venho estudando e desenvolvendo projetos com Python, HTML, CSS e JavaScript, 
+                        explorando desde sites e interfaces até aplicações com foco em Full Stack.</p>
+                    <p>Estou em constante aperfeiçoamento por meio de cursos, estudos independentes e experiências práticas que reforçam meu compromisso em evoluir tecnicamente e contribuir com soluções inovadoras.</p>
+                    <p>Busco uma oportunidade na área para aprender com profissionais experientes, participar de projetos reais e crescer junto com uma equipe que valorize dedicação, responsabilidade e vontade de fazer a diferença. Aberta a conexões, parcerias e novos desafios! 💡</p>
+                </div>
+                <div class="sobreFoto">
+                    <img src="assets/minha-foto.jpeg" alt="Foto Jamile Rockenbach Ferreira">
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section esconder">
+            <h2>Minhas Habilidades Técnicas</h2>
+            <div class="skills-grid">
+                <div class="skill-card"> 
+                    <img src="assets/python.svg" alt="Logo Python">
+                    <h3>Python</h3>
+                </div>
+                <div class="skill-card">
+                    <img src="assets/html5.svg" alt="Logo HTML">
+                    <h3>HTML</h3>
+                </div>
+                <div class="skill-card">
+                    <img src="assets/css.svg" alt="Logo CSS">
+                    <h3>CSS</h3>
+                </div>
+                <div class="skill-card">
+                    <img src="assets/javascript.svg" alt="Logo JavaScript">
+                    <h3>JavaScript</h3>
+                </div>
+                <div class="skill-card">
+                    <img src="assets/react.svg" alt="Logo Reaxt">
+                    <h3>React</h3>
+                </div>
+                <div class="skill-card">
+                    <img src="assets/pandas.svg" alt="Logo Pandas">
+                    <h3>Análise de Dados/Pandas</h3>
+                </div>
+                <div class="skill-card">
+                    <img src="assets/ccharp.svg" alt="Logo C#">
+                    <h3>C#</h3>
+                </div>
+                <div class="skill-card">
+                    <img src="assets/dotnet.svg" alt="Logo Dotnet">
+                    <h3>.NET</h3>
+                </div>
+                <div class="skill-card">
+                    <img src="assets/git.svg" alt="Logo Git">
+                    <h3>Git</h3>
+                </div>
+                <div class="skill-card">
+                    <img src="assets/github.svg" alt="Logo GitHub">
+                    <h3>GitHub</h3>
+                </div>
+                <div class="skill-card">
+                    <img src="assets/java.svg" alt="Logo Java">
+                    <h3>Java</h3>
+                </div>
+            </div>
+        </section>
+        
+        <section id="certificados" class="section esconder">
+            <h2>Certificados e Formações</h2>
+            <div class="carousel">
+                <button class="arrow-btn left-arrow">&lt;</button>
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="assets/certificadoChat.jpeg" alt="Certificado Python + chatbot">
+                        <div class="card-content">
+                            <h3>Python para IA: do zero ao primeiro chatbot</h3>
+                            <p>Assimov Academy</p>
+                            <a href="https://hub.asimov.academy/validar-certificado/a4ebd041-9c3c-46e3-a21f-f72c8ea1759a" target="_blank">Ver Credencial</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="assets/nlw.jpeg" alt="Certificado NLW">
+                        <div class="card-content">
+                            <h3>NLW Agents - Iniciante</h3>
+                            <p>Rocketseat</p>
+                            <a href="https://app.rocketseat.com.br/certificates/e62ba556-f08f-4cbd-92fe-0c079716d7f9" target="_blank">Ver Credencial</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="assets/certificadoReact.jpeg" alt="Certificado React">
+                        <div class="card-content">
+                            <h3>Introdução ao React</h3>
+                            <p>DIO</p>
+                            <a href="https://www.dio.me/certificate/BLCXHOSV/share" target="_blank">Ver Credencial</a>
+                        </div>
+                    </div>
+                </div>
+                <button class="arrow-btn right-arrow">&gt;</button>
+            </div>
+        </section>
+
+        <section id="projetos" class="section esconder">
+            <h2>Meus Projetos</h2>
+            <div class="carousel">
+                <button class="arrow-btn left-arrow">&lt;</button>
+                <div class="cards-container">
+                    <div class="card project-card">
+                        <img src="assets/jornada.jpeg" alt="Imagem do Projeto">
+                        <div class="card-content">
+                            <h3>Game a Jornada de Luz</h3>
+                            <p>A Jornada de Luz é um jogo 2D desenvolvido em Python no Pygame que une a arte e emoção para guiar o jogador por uma experiência simbólica de superação.</p>
+                            <div class="project-links">
+                                <a href="https://github.com/JamileRockenbach/Jornada_de_Luz" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card project-card">
+                        <img src="assets/dashboard.jpeg" alt="Imagem do Projeto">
+                        <div class="card-content">
+                            <h3>Mini Dashboard de Dados</h3>
+                            <p>Projeto desenvolvido com o objetivo de praticar e demonstrar habilidades com Python, tkinter, pandas e matplotlib, criando uma aplicação que permite visualizar e analisar dados contidos em arquivos .csv de forma interativa e intuitiva.</p>
+                            <div class="project-links">
+                                <a href="https://github.com/JamileRockenbach/dashboard_python" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card project-card">
+                        <img src="assets/botytalkimg.jpeg" alt="Imagem do Projeto">
+                        <div class="card-content">
+                            <h3>BotyTalk - seu chatbot</h3>
+                            <p>Um chatbot desenvolvido em python e inteligência artificial para ajudar nos estudos. Feito durante o curso da Assimov Academy.</p>
+                            <div class="project-links">
+                                <a href="https://github.com/JamileRockenbach/BotyTalk" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card project-card">
+                        <img src="assets/POO.jpeg" alt="Imagem do Projeto">
+                        <div class="card-content">
+                            <h3>Sistema de Estoque com POO Python</h3>
+                            <p>Desenvolvimento de um mini sistema de estoque e vendas, implementado em Programação Orientada a Objetos e utilizando estruturas de dados Lista, Pilha e Fila.</p>
+                            <div class="project-links">
+                                <a href="https://github.com/bymariia/PROJETO-SISTEMA-ESTOQUE-" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="arrow-btn right-arrow">&gt;</button>
+            </div>
+        </section>
+
+        <section id="contatos" class="section esconder">
+            <h2>Entre em contato comigo!</h2>
+            <div class="contact-links">
+                <a href="mailto:jamilerockenbach.tech@gmail.com" target="_blank"><i class="fas fa-envelope"></i> E-mail</a>
+                <a href="https://www.instagram.com/jami_r.f?igsh=azc4YjhxdjN3bGVn" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+                <a href="https://www.linkedin.com/in/jamile-rockenbach-ferreira" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                <a href="https://github.com/JamileRockenbach" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Jamile Rockenbach Ferreira | Todos os direitos reservados</p>
+    </footer>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>

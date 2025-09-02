@@ -111,12 +111,23 @@ nav a:hover {
 /* -------------------- SEÇÃO DE BOAS-VINDAS -------------------- */
 .bemVindo {
     display: flex;
+    position: relative;
+    overflow: hidden;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     height: 45vh;
     padding: 0 1rem;
     text-align: center;
+}
+
+#bem-vindo-fundo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
 }
 
 .titulo {
@@ -139,6 +150,7 @@ nav a:hover {
     left: 50%;
     transform: translateX(-50%);
 }
+
 
 /* -------------------- SEÇÃO SOBRE MIM -------------------- */
 .sobre {
@@ -193,6 +205,13 @@ nav a:hover {
     transform: scale(1.05);
 }
 
+h3 {
+    margin-bottom: 1rem;
+    line-height: 1.6;
+    font-size: 1.1rem;
+    color: var(--purple);
+}
+
 /* -------------------- SEÇÃO HABILIDADES -------------------- */
 .skills-grid {
     display: grid;
@@ -238,14 +257,15 @@ nav a:hover {
     font-size: 1rem;
     color: var(--light);
 }
+
 /* -------------------- SEÇÕES CERTIFICADOS E PROJETOS -------------------- */
 .carousel {
     overflow-x: auto;
-    padding: 0 4%; /* Ajuste o padding para as laterais, pode usar 'rem' ou 'px' também */
-    padding-bottom: 2rem; /* Mantém o espaço para a rolagem visual */
-    max-width: 100vw; /* Garante que o carrossel ocupe toda a largura da viewport */
-    position: relative; /* Já estava lá, mas é bom reforçar para os botões */
-    margin: 0 auto; /* Centraliza o carrossel se ele não ocupar 100vw */
+    padding: 0 4%;
+    padding-bottom: 2rem;
+    max-width: 100vw;
+    position: relative;
+    margin: 0 auto;
 }
 
 /* Remove a barra de rolagem para um visual mais limpo */
@@ -261,14 +281,12 @@ nav a:hover {
 .cards-container {
     display: flex;
     flex-wrap: nowrap;
-    gap: 10px; /* Aumente um pouco o espaço entre os cards */
-    padding: 1rem 0; /* Adiciona um padding interno para os cards */
-    /* Removido max-width: none; pois agora o .carousel controla a largura */
+    gap: 30px;
+    padding: 1rem 0;
 }
 
 .card {
-    min-width: 320px; /* Largura mínima para o card, para evitar que fiquem muito pequenos */
-   /* flex-shrink: 0; /* Impede que os cards encolham */
+    min-width: 320px;
     background: var(--dark);
     border-radius: 15px;
     box-shadow: 0 8px 20px rgba(0,0,0,0.4);
@@ -349,13 +367,12 @@ nav a:hover {
 }
 
 .left-arrow {
-    left: 10px; /* Distância da borda esquerda do .carousel */
+    left: 10px;
 }
 
 .right-arrow {
-    right: 10px; /* Distância da borda direita do .carousel */
+    right: 10px;
 }
-
 /* -------------------- SEÇÃO CONTATOS -------------------- */
 .contact-links {
     display: flex;

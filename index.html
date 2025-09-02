@@ -25,17 +25,19 @@
 
     <main>
         <section class="bemVindo">
+            <div id="bem-vindo-fundo"></div>
             <h1 class="titulo">Seja Bem-Vindo(a)!</h1>
         </section>
         <section id="sobre" class="section sobre esconder">
             <div class="sobreContainer">
                 <div class="sobreTexto">
                     <h1>Um pouquinho sobre mim...</h1>
-                    <p>Olá, me chamo Jamile Rockenbach Ferreira, tenho 18 anos e sou estudante de Ciência da Computação na ATITUS.</p>
-                    <p>Sou apaixonada pela área de tecnologia. Atualmente, venho estudando e desenvolvendo projetos com Python, HTML, CSS e JavaScript, 
+                    <p>Olá, me chamo Jamile Rockenbach Ferreira, tenho 18 anos e sou estudante de Ciência da Computação na Atitus Educação.</p>
+                    <p>Desde cedo sou apaixonada por tecnologia e hoje desenvolvo projetos com Python, HTML, CSS e JavaScript, 
                         explorando desde sites e interfaces até aplicações com foco em Full Stack.</p>
-                    <p>Estou em constante aperfeiçoamento por meio de cursos, estudos independentes e experiências práticas que reforçam meu compromisso em evoluir tecnicamente e contribuir com soluções inovadoras.</p>
-                    <p>Busco uma oportunidade na área para aprender com profissionais experientes, participar de projetos reais e crescer junto com uma equipe que valorize dedicação, responsabilidade e vontade de fazer a diferença. Aberta a conexões, parcerias e novos desafios! 💡</p>
+                    <p>Estou em constante evolução por meio de cursos, estudos independentes e experiências práticas que reforçam meu compromisso em crescer tecnicamente e contribuir com soluções inovadoras, criativas e eficientes.</p>
+                    <p>Busco uma oportunidade na área para aprender com profissionais experientes, participar de projetos reais e crescer junto com uma equipe que valorize dedicação, responsabilidade e vontade de fazer a diferença. </p>
+                    <h3 id="motivacional">"A tecnologia não é apenas sobre códigos, mas sobre transformar ideias em soluções que impactam vidas."</h3>
                 </div>
                 <div class="sobreFoto">
                     <img src="assets/minha-foto.jpeg" alt="Foto Jamile Rockenbach Ferreira">
@@ -122,6 +124,24 @@
                             <a href="https://www.dio.me/certificate/BLCXHOSV/share" target="_blank">Ver Credencial</a>
                         </div>
                     </div>
+                    <div class="card">
+                        <img src="assets/introducaodados.jpeg" alt="Certificado Dados">
+                        <div class="card-content">
+                            <h3>Introdução à Ciência de Dados</h3>
+                            <p>Santander Open Academy</p>
+                            <p>Duração: 6 horas.</p>
+                            <p>Concluído em: 04 de junho 2025.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="assets/certificadopython.jpeg" alt="Certificado Python">
+                        <div class="card-content">
+                            <h3>Introdução à Programação em Python</h3>
+                            <p>Santander Open Academy</p>
+                            <p>Duração: 8 horas.</p>
+                            <p>Concluído em: 11 de maio 2025.</p>
+                        </div>
+                    </div>
                 </div>
                 <button class="arrow-btn right-arrow">&gt;</button>
             </div>
@@ -192,6 +212,114 @@
         <p>&copy; 2025 Jamile Rockenbach Ferreira | Todos os direitos reservados</p>
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script>
+        particlesJS("bem-vindo-fundo", {
+            "particles": {
+                "number": {
+                    "value": 80,
+                    "density": {
+                        "enable": true,
+                        "value_area": 800
+                    }
+                },
+                "color": {
+                    "value": "#7274c7"
+                },
+                "shape": {
+                    "type": "circle",
+                    "stroke": {
+                        "width": 0,
+                        "color": "#000000"
+                    },
+                    "polygon": {
+                        "nb_sides": 5
+                    }
+                },
+                "opacity": {
+                    "value": 0.5,
+                    "random": false,
+                    "anim": {
+                        "enable": false,
+                        "speed": 1,
+                        "opacity_min": 0.1,
+                        "sync": false
+                    }
+                },
+                "size": {
+                    "value": 3,
+                    "random": true,
+                    "anim": {
+                        "enable": false,
+                        "speed": 40,
+                        "size_min": 0.1,
+                        "sync": false
+                    }
+                },
+                "line_linked": {
+                    "enable": true,
+                    "distance": 150,
+                    "color": "#7b337e",
+                    "opacity": 0.4,
+                    "width": 1
+                },
+                "move": {
+                    "enable": true,
+                    "speed": 6,
+                    "direction": "none",
+                    "random": false,
+                    "straight": false,
+                    "out_mode": "out",
+                    "bounce": false,
+                    "attract": {
+                        "enable": false,
+                        "rotateX": 600,
+                        "rotateY": 1200
+                    }
+                }
+            },
+            "interactivity": {
+                "detect_on": "canvas",
+                "events": {
+                    "onhover": {
+                        "enable": true,
+                        "mode": "repulse"
+                    },
+                    "onclick": {
+                        "enable": true,
+                        "mode": "push"
+                    },
+                    "resize": true
+                },
+                "modes": {
+                    "grab": {
+                        "distance": 400,
+                        "line_linked": {
+                            "opacity": 1
+                        }
+                    },
+                    "bubble": {
+                        "distance": 400,
+                        "size": 40,
+                        "duration": 2,
+                        "opacity": 8,
+                        "speed": 3
+                    },
+                    "repulse": {
+                        "distance": 200,
+                        "duration": 0.4
+                    },
+                    "push": {
+                        "particles_nb": 4
+                    },
+                    "remove": {
+                        "particles_nb": 2
+                    }
+                }
+            },
+            "retina_detect": true
+        });
+    </script>
     <script src="script.js"></script>
     
 </body>

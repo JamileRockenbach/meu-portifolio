@@ -168,24 +168,6 @@ nav a:hover {
     flex-wrap: wrap;
 }
 
-.sobreTexto {
-    flex: 1;
-    text-align: left;
-    color: var(--light);
-}
-
-.sobreTexto h1 {
-    font-size: 2.1rem;
-    margin-bottom: 1rem;
-    color: var(--purple);
-}
-
-.sobreTexto p {
-    margin-bottom: 1rem;
-    line-height: 1.6;
-    font-size: 1.1rem;
-}
-
 .sobreFoto {
     flex: 1;
     display: flex;
@@ -203,6 +185,24 @@ nav a:hover {
 
 .sobreFoto img:hover {
     transform: scale(1.05);
+}
+
+.sobreTexto {
+    flex: 1;
+    text-align: left;
+    color: var(--light);
+}
+
+.sobreTexto h1 {
+    font-size: 2.1rem;
+    margin-bottom: 1rem;
+    color: var(--purple);
+}
+
+.sobreTexto p {
+    margin-bottom: 1rem;
+    line-height: 1.6;
+    font-size: 1.1rem;
 }
 
 h3 {

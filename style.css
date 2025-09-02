@@ -38,6 +38,7 @@ body {
         opacity: 0;
         transform: translateY(20px);
     }
+
     to {
         opacity: 1;
         transform: translateY(0);
@@ -70,7 +71,7 @@ header {
     left: 0;
     width: 100%;
     z-index: 100;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
     transition: background 0.3s ease;
 }
 
@@ -121,7 +122,7 @@ nav a:hover {
     text-align: center;
 }
 
-#bem-vindo-fundo{
+#bem-vindo-fundo {
     position: absolute;
     top: 0;
     left: 0;
@@ -154,7 +155,7 @@ nav a:hover {
 
 /* -------------------- SEÇÃO SOBRE MIM -------------------- */
 .sobre {
-    padding-top: 0.1px; 
+    padding-top: 0.1px;
     padding-bottom: 6rem;
 }
 
@@ -166,25 +167,6 @@ nav a:hover {
     max-width: 1100px;
     margin: auto;
     flex-wrap: wrap;
-}
-
-.sobreFoto {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-}
-
-.sobreFoto img {
-    width: 400px;
-    height: 400px;
-    object-fit: cover;
-    border-radius: 50%;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.5);
-    transition: transform 0.3s ease;
-}
-
-.sobreFoto img:hover {
-    transform: scale(1.05);
 }
 
 .sobreTexto {
@@ -203,6 +185,28 @@ nav a:hover {
     margin-bottom: 1rem;
     line-height: 1.6;
     font-size: 1.1rem;
+}
+
+.sobreFoto {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    order: -1;
+    margin-bottom: 2rem
+}
+
+.sobreFoto img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease;
+}
+
+.sobreFoto img:hover {
+    transform: scale(1.05);
 }
 
 h3 {
@@ -231,7 +235,7 @@ h3 {
     font-weight: bold;
     transition: all 0.4s ease;
     cursor: pointer;
-    box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
     border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
@@ -244,7 +248,8 @@ h3 {
 
 .skill-card img {
     width: 60px;
-    height: auto;;
+    height: auto;
+    ;
     transition: transform 0.4s ease;
     filter: brightness(0) invert(1);
 }
@@ -289,7 +294,7 @@ h3 {
     min-width: 320px;
     background: var(--dark);
     border-radius: 15px;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
     overflow: hidden;
     transition: transform 0.4s ease, box-shadow 0.4s ease;
     border: 1px solid rgba(255, 255, 255, 0.1);
@@ -297,8 +302,9 @@ h3 {
 
 .card:hover {
     transform: translateY(-15px);
-    box-shadow: 0 15px 30px rgba(0,0,0,0.6);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.6);
 }
+
 .card img {
     width: 100%;
     height: 250px;
@@ -373,6 +379,7 @@ h3 {
 .right-arrow {
     right: 10px;
 }
+
 /* -------------------- SEÇÃO CONTATOS -------------------- */
 .contact-links {
     display: flex;
@@ -394,13 +401,13 @@ h3 {
     display: flex;
     align-items: center;
     gap: 10px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 .contact-links a:hover {
     background: var(--purple);
     transform: translateY(-5px) scale(1.05);
-    box-shadow: 0 8px 15px rgba(0,0,0,0.5);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5);
 }
 
 /* -------------------- RESPONSIVIDADE -------------------- */
@@ -446,7 +453,7 @@ h3 {
     .section {
         padding: 6rem 1rem 3rem;
     }
-    
+
     .sobreContainer {
         flex-direction: column;
     }
@@ -483,7 +490,7 @@ footer {
     padding: 2rem 1rem;
     font-size: 1rem;
     border-top: 1px solid rgba(255, 255, 255, 0.1);
-    box-shadow: 0 -4px 15px rgba(0,0,0,0.5);
+    box-shadow: 0 -4px 15px rgba(0, 0, 0, 0.5);
 }
 
 footer p {

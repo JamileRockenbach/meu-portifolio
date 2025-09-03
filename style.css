@@ -109,7 +109,6 @@ nav a:hover {
     cursor: pointer;
 }
 
-/* -------------------- SEÇÃO DE BOAS-VINDAS -------------------- */
 .bemVindo {
     display: flex;
     position: relative;
@@ -152,8 +151,6 @@ nav a:hover {
     transform: translateX(-50%);
 }
 
-
-/* -------------------- SEÇÃO SOBRE MIM -------------------- */
 .sobre {
     padding-top: 0.1px;
     padding-bottom: 6rem;
@@ -216,7 +213,6 @@ h3 {
     color: var(--purple);
 }
 
-/* -------------------- SEÇÃO HABILIDADES -------------------- */
 .skills-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
@@ -263,7 +259,6 @@ h3 {
     color: var(--light);
 }
 
-/* -------------------- SEÇÕES CERTIFICADOS E PROJETOS -------------------- */
 .carousel {
     overflow-x: auto;
     padding: 0 4%;
@@ -273,7 +268,6 @@ h3 {
     margin: 0 auto;
 }
 
-/* Remove a barra de rolagem para um visual mais limpo */
 .carousel::-webkit-scrollbar {
     -webkit-overflow-scrolling: touch;
 }
@@ -375,7 +369,6 @@ h3 {
     right: 10px;
 }
 
-/* -------------------- SEÇÃO CONTATOS -------------------- */
 .contact-links {
     display: flex;
     justify-content: center;
@@ -405,7 +398,6 @@ h3 {
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5);
 }
 
-/* -------------------- RESPONSIVIDADE -------------------- */
 @media (max-width: 1024px) {
     header {
         padding: 1rem 2rem;

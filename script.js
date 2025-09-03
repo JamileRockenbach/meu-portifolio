@@ -11,7 +11,6 @@ document.addEventListener('DOMContentLoaded', function() {
         const rightArrow = carousel.querySelector('.right-arrow');
         const cardsContainer = carousel.querySelector('.cards-container');
         
-        // Esta é a parte que foi corrigida
         const cards = cardsContainer.querySelectorAll('.card');
         if (cards.length > 0) {
             const firstCard = cards[0];

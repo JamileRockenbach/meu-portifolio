@@ -76,7 +76,7 @@ header {
 }
 
 header h2 {
-    font-size: 1.0rem;
+    font-size: 1.2rem;
     color: var(--light);
 }
 
@@ -197,7 +197,7 @@ nav a:hover {
     width: 400px;
     height: 400px;
     object-fit: cover;
-    border-radius: 50%;
+    border-radius: 20px;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
     transition: transform 0.3s ease;
 }
@@ -415,6 +415,7 @@ h3 {
     }
 
     header h2 {
+        display: none;
         font-size: 1.2rem;
     }
 

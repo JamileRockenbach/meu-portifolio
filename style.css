@@ -439,7 +439,7 @@ h3 {
     }
 
     .section {
-        padding: 6rem 1rem 3rem;
+        padding: 5rem 1rem 2rem;
     }
 
     .sobreContainer {
@@ -451,7 +451,8 @@ h3 {
     }
 
     .sobreFoto {
-        margin-top: 2rem;
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
     }
 }
 
